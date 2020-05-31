@@ -34,6 +34,7 @@
                     width: 24%;
                     float: left;
                     margin: 2px 0 2px;
+                    border: solid 3px var(--color-grey1);
                     border-radius: 50%;
                 }
 

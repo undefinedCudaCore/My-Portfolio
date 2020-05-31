@@ -31,7 +31,7 @@ function headerBackground() {
             
         });
     } else {
-        bars.classList.remove("show-bars");
+        // bars.classList.remove("show-bars");
     }
     return;
 };

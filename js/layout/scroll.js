@@ -46,9 +46,9 @@ for (let i = 0; i < links.length; i++) {
         // if find out nierest section
 
         // pries tai buvusi nuoroda header > nav netanka active klases
-        document.querySelector(`#main_header nav > a.active`).classList.remove('active');
+        document.querySelector(`#main_header .navigation > a.active`).classList.remove('active');
         // naujoji nuoroda gauna active clase
-        document.querySelector(`#main_header nav > a[href="${links[wantedSection]}"]`).classList.add('active');
+        document.querySelector(`#main_header .navigation > a[href="${links[wantedSection]}"]`).classList.add('active');
 
             
     return;

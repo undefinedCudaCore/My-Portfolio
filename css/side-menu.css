@@ -1,0 +1,82 @@
+#main_header > .side-menu {
+    display: inline-block;
+    float: left;
+    width: 235px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -380px;
+    background-color: var(--color-black1);
+    z-index: 2;
+    transition: all 0.5s;
+}
+    #main_header .show-side-menu {
+        left: 0px;
+        transition: all 0.5s;
+    }
+    #main_header .side-menu .close-side-menu {
+        display: inline-block;
+        width: 100%;
+        height: 24px;
+    }
+        #main_header .close-side-menu i {
+            display: inline-block;
+            font-size: 24px;
+            line-height: 24px;
+        }
+        #main_header .row .side-menu-components {
+            display: inline-block;
+            width: 50%;
+            height: 80vh;
+            margin-left: calc(50% - 60px);
+            margin-top: calc(10vh - 12px);
+            text-align: center;
+        }
+            #main_header .side-menu-components .profile {
+                display: inline-block;
+                width: 100%;
+                height: 40%;
+                word-break: keep-all;
+            }
+            #main_header .side-menu-components .navigation {
+                display: inline-block;
+                width: 100%;
+                height: 60%;
+                text-align: center;
+                word-break: keep-all;
+            }
+                .side-menu-components .navigation a {
+                    display: inline-block;
+                    width: 60%;
+                    margin: 20px 0 0 calc(50% - 35px);
+                    float: left;
+                    font-size: 16px;
+                    line-height: 20px;
+                    text-align: center;
+                    letter-spacing: .5px;
+                    word-break: keep-all;
+                    position: relative;
+                }
+                .side-menu-components .profile a {
+                    display: inline-block;
+                    width: 100%;
+                    height: 40%;
+                }
+                .side-menu-components .profile img {
+                    display: inline-block;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                }
+                .side-menu-components .profile span {
+                    display: inline-block;
+                    margin: 5px 0 0;
+                    font-size: 17px;
+                    font-weight: 600;
+                }
+                .side-menu-components .profile p {
+                    display: inline-block;
+                    margin: 5px 0 0;
+                    font-size: 12px;
+                    font-weight: 100;
+                }

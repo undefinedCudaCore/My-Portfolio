@@ -22,9 +22,9 @@ function renderHeader(headerList) {
     
     profileHTML = `
                     <div class="col-4 profile">
-                        <a href="#"><img src="./img/profile-avatar.jpg" alt="Profile avatar"></a>
+                        <a href="#"><img class="main-avatar" src="./img/profile-avatar.jpg" alt="Profile avatar"></a>
                         <span class="tad">Tad Kuncevitz</span>
-                        <p class="avalilable">Available for work</p>
+                        <p class="available">Available for work</p>
                     </div>`;
 
     sideMenuHTML = `
@@ -37,8 +37,8 @@ function renderHeader(headerList) {
                             <div class="side-menu-components">
                                 <div class="profile">
                                     <a href="#"><img src="./img/profile-avatar.jpg" alt="Profile avatar"></a>
-                                    <span class="tad">Tad Kuncevitz</span>
-                                    <p class="avalilable">Available for work</p>
+                                    <span>Tad Kuncevitz</span>
+                                    <p>Available for work</p>
                                 </div>
                                 <div class="navigation">
                                     ${navigationHTML}

@@ -29,15 +29,24 @@
         background-color: var( --color-black1);
         z-index: 1;
     }
+        #main_header .container .hide-profile{
+            display: none;            
+        }
                 .container .profile img {
                     display: inline-block;
-                    width: 24%;
+                    width: 100%;
                     float: left;
                     margin: 2px 0 2px;
                     border: solid 3px var(--color-grey1);
                     border-radius: 50%;
                 }
-
+                .container .profile > a {
+                    display: inline-block;
+                    width: 24%;
+                    margin-top: -1px;
+                    height: 85px;
+                    float: left;
+                }
                 .container .profile span {
                     display: inline-block;
                     margin: 19px 0 2px 10px;

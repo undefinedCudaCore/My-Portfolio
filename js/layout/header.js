@@ -28,7 +28,7 @@ function renderHeader(headerList) {
                     </div>`;
 
     sideMenuHTML = `
-                    <div class="side-menu">
+                    <div class="side-menu cog">
                         <div class="row">
                             <div class="close-side-menu">
                                 <i class="fa fa-cog fa-spin fa-3x fa-fw"></i>
@@ -50,6 +50,7 @@ function renderHeader(headerList) {
     HTML = `
             ${sideMenuHTML}
             <div class="container">
+                <i class="fa fa-bars" aria-hidden="true"></i>
                 <div class="row">
                         ${profileHTML}
                         <div class="col-8">

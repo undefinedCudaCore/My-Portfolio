@@ -16,9 +16,9 @@
         line-height: 40px;
         cursor: pointer;
     }
-    #main_header .show-bars {
+    /* #main_header .show-bars {
         display: inline-block;
-    }
+    } */
     #main_header .fa-bars:hover {
         color: var(--color-font-red1);
         transition: all 0.5s;
@@ -103,3 +103,11 @@
                     right: 0%;
                     background-color: var(--color-font-red1);
                 }
+@media (max-width: 1100px) {
+    #main_header .navigation{
+        display: none;
+    }
+    #main_header .fa-bars {
+        display: inline-block;
+    }
+}

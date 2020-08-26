@@ -31,7 +31,7 @@ function headerBackground() {
         
     });
     if(window.scrollY > 80) {
-        bars.classList.add("show-bars");
+        // bars.classList.add("show-bars");
         bars.addEventListener('click', function () {
             sideMenu.classList.add("show-side-menu");
             sideMenu.classList.add("cog");

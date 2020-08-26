@@ -4,4 +4,6 @@
 @import './font-awesome.min.css';
 @import './variables.css';
 @import './header.css';
+@import './hero.css';
+@import './word-slide.css';
 @import './side-menu.css';

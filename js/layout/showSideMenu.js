@@ -30,15 +30,23 @@ function headerBackground() {
         return;
         
     });
+
+    bars.addEventListener('click', function () {
+        sideMenu.classList.add("show-side-menu");
+        mainHeader.classList.add("position");
+        tad.classList.add("hide-profile");
+        available.classList.add("hide-profile");
+        image.classList.add("hide-profile");
+        return;
+        
+    });
     if(window.scrollY > 80) {
-        // bars.classList.add("show-bars");
+        bars.classList.add("show-bars");
         bars.addEventListener('click', function () {
-            sideMenu.classList.add("show-side-menu");
+            // sideMenu.classList.add("show-side-menu");
             sideMenu.classList.add("cog");
-            mainHeader.classList.add("position");
-            tad.classList.add("hide-profile");
-            available.classList.add("hide-profile");
-            image.classList.add("hide-profile");
+            // mainHeader.classList.add("position");
+
             return;
             
         });

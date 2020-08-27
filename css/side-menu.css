@@ -71,13 +71,13 @@
                 .side-menu-components .profile img {
                     display: inline-block;
                     width: 100%;
-                    height: 100%;
+                    height: auto;
                     border: solid 4px var(--color-grey1);
                     border-radius: 50%;
                 }
                 .side-menu-components .profile span {
                     display: inline-block;
-                    margin: 5px 0 0;
+                    margin: 25px 0 0;
                     font-size: 17px;
                     font-weight: 600;
                 }

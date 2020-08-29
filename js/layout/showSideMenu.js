@@ -15,6 +15,9 @@ function headerBackground() {
         tad.classList.remove("hide-profile");
         available.classList.remove("hide-profile");
         image.classList.remove("hide-profile");
+        
+        cog.classList.remove("fa-cog");
+        
     } else {
         sideMenu.classList.remove("show-side-menu");
         mainHeader.classList.remove("position");
@@ -37,17 +40,18 @@ function headerBackground() {
         tad.classList.add("hide-profile");
         available.classList.add("hide-profile");
         image.classList.add("hide-profile");
+        cog.classList.add("fa-cog");
         return;
         
     });
     if(window.scrollY > 80) {
         bars.classList.add("show-bars");
         bars.addEventListener('click', function () {
-            // sideMenu.classList.add("show-side-menu");
-            sideMenu.classList.add("cog");
-            // mainHeader.classList.add("position");
+        // sideMenu.classList.add("show-side-menu");
+        sideMenu.classList.add("cog");
+        // mainHeader.classList.add("position");
 
-            return;
+        return;
             
         });
     } else {

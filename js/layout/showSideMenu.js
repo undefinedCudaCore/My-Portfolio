@@ -8,19 +8,27 @@ function headerBackground() {
     const tad = document.querySelector("#main_header .tad");
     const available = document.querySelector("#main_header .available");
     const image = document.querySelector("#main_header .main-avatar");
+    const hero = document.querySelector("#hero");
+    const heroShadow = document.querySelector("#hero .hero-shadow");
+    const headerCaption = document.querySelector("#hero .header-caption");
      
     if (window.scrollY > 80 && sideMenu.classList.contains("cog")) {
         sideMenu.classList.add("show-side-menu");
         mainHeader.classList.add("position");
+        hero.classList.add("vh");
+        heroShadow.classList.add("vh");
+        headerCaption.classList.add("vh");
         tad.classList.remove("hide-profile");
         available.classList.remove("hide-profile");
         image.classList.remove("hide-profile");
-        
-        cog.classList.remove("fa-cog");
+        // cog.classList.remove("fa-cog");
         
     } else {
         sideMenu.classList.remove("show-side-menu");
         mainHeader.classList.remove("position");
+        hero.classList.remove("vh");
+        heroShadow.classList.remove("vh");
+        headerCaption.classList.remove("vh");
     }
 
     cog.addEventListener('click', function () {

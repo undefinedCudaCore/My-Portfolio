@@ -11,6 +11,7 @@ function headerBackground() {
     const hero = document.querySelector("#hero");
     const heroShadow = document.querySelector("#hero .hero-shadow");
     const headerCaption = document.querySelector("#hero .header-caption");
+    const particles = document.querySelector("#particles-js");
      
     if (window.scrollY > 80 && sideMenu.classList.contains("cog")) {
         sideMenu.classList.add("show-side-menu");
@@ -18,6 +19,7 @@ function headerBackground() {
         hero.classList.add("vh");
         heroShadow.classList.add("vh");
         headerCaption.classList.add("vh");
+        particles.classList.add("mar-top");
         tad.classList.remove("hide-profile");
         available.classList.remove("hide-profile");
         image.classList.remove("hide-profile");
@@ -29,6 +31,7 @@ function headerBackground() {
         hero.classList.remove("vh");
         heroShadow.classList.remove("vh");
         headerCaption.classList.remove("vh");
+        particles.classList.remove("mar-top");
     }
 
     cog.addEventListener('click', function () {

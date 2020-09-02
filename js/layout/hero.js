@@ -6,12 +6,12 @@ function heroRender() {
     HTML = `<div class="row" id="hero-row">
                 <div class="my-name">
                     <h1>
-                        Thad<span>deus</span>
+                        My name is Thad<span>deus</span>.
                     </h1>
                 </div>
                 <div class="header-caption" id="page-top">
                     <!-- Headline start-->
-                    <h3 class="cd-headline clip is-full-width">
+                    <h3 class="cd-headline clip is-full-width" readonly>
                         <span>I'm </span>
                         <span class="cd-words-wrapper" style="width: 178px;">
                         <b class="is-visible">Developer.</b>

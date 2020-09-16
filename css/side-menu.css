@@ -80,6 +80,7 @@
                     margin: 25px 0 0;
                     font-size: 17px;
                     font-weight: 600;
+                    word-break: keep-all;
                 }
                 .side-menu-components .profile p {
                     display: inline-block;

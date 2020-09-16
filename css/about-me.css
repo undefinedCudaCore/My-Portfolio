@@ -1,0 +1,13 @@
+#about_me .row img {
+    background-color: transparent;
+    border-color: rgba(0,0,0,.18);
+    width: 340px;
+}
+#about_me .row .about-me {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    height: auto;
+    max-width: 350px;
+    padding: .25rem;
+}

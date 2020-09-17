@@ -1,6 +1,5 @@
 # My-Portfolio
 
-![HitCount](http://hits.dwyl.com/undefinedCudaCore/My-Portfolio.svg)
 ![HitCount](http://hits.dwyl.com/undefinedCudaCore/12-Kareem-portfolio.svg)
 
 Site published [Here](https://undefinedcudacore.github.io/My-Portfolio/index.html)

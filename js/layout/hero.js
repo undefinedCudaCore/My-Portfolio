@@ -22,6 +22,6 @@ function heroRender() {
                     <!-- Headline end -->
                 </div>
             </div>`;
-    document.querySelector('#hero-row').innerHTML = HTML;
+    document.querySelector('#hero_row').innerHTML = HTML;
 }
 export default heroRender;

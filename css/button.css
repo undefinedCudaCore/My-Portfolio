@@ -1,0 +1,37 @@
+.about-btns {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+     .about-btns .myButton {
+        display:inline-block;
+        float: left;
+        margin: 0 0 0 25px;
+        padding:10px 31px;
+        border-radius:28px;
+        background-color:var(--color-font-red1);
+        border:1px solid var(--color-font-red3);
+        cursor:pointer;
+        color:var(--color-font-white2);
+        font-size:15px;
+        text-decoration:none;
+    }
+    .about-btns .myButton:hover {
+        background-color: var(--color-font-red2);
+        border: none;
+        padding: 11px 32px;
+    }
+    .about-btns .myButton:active {
+        position:relative;
+        top:1px;
+    }
+        .about-btns .myButton:last-child {
+            background: var(--color-font-white2);
+            color: var(--color-black1);
+            border:1px solid var(--color-black-transparent1);
+        }
+        .about-btns .myButton:last-child:hover {
+            background-color: var(--color-blue1);
+            border: none;
+            padding: 11px 32px;
+        }

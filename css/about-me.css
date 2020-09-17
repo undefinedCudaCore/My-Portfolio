@@ -1,13 +1,97 @@
-#about_me .row img {
-    background-color: transparent;
-    border-color: rgba(0,0,0,.18);
-    width: 340px;
+#about_me {
+    display: inline-block;
+    width: 100%;
 }
-#about_me .row .about-me {
-    background-color: #fff;
-    border: 1px solid #dee2e6;
-    border-radius: .25rem;
-    height: auto;
-    max-width: 350px;
-    padding: .25rem;
-}
+        #about_me .row img {
+            background-color: transparent;
+            width: 340px;
+            border-radius: .25rem;
+        }
+        #about_me .row .about-me {
+            background-color: var(--color-font-white2);
+            border: 1px solid var(--color-black-transparent1);
+            border-radius: .25rem;
+            height: auto;
+            max-width: 350px;
+            padding: .25rem;
+        }
+    #about_me .col-7.content-column {
+        /* display: inline-block; */
+    }
+    #about_me .content {
+        margin: 33px 0 0;
+        display: inline-block;
+        width: 100%;
+        height: auto;
+    }
+        #about_me .content .content-subtitle {
+            display: inline-block;
+            width: 100%;
+            height: auto;
+            font-size: 28px;
+            line-height: 28px;
+            margin-bottom: 28px;
+            color: var(--color-font-red1);
+        }
+        #about_me .content .content-title {
+            display: inline-block;
+            width: 100%;
+            height: auto;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 1.35;
+            margin-bottom: 15px;
+            word-break: keep-all;
+        }
+        #about_me .content .content-description {
+            display: inline-block;
+            width: 100%;
+            height: auto;
+            font-size: 15px;
+            word-break: keep-all;
+        }
+            #about_me .content .content-description p {
+                display: inline-block;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                margin-top: 0;
+                word-break: keep-all;
+                font-weight: 400;
+                line-height: 1.95;
+            }
+            #about_me .content .content-description p:last-child {
+                border-bottom: 2px solid var(--color-grey-transparent1);
+                margin-bottom: 0;
+                padding-bottom: 27px;
+            }
+                .content-info .row-info {
+                    display: inline-block;
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+                .content-info .row-info:first-child {
+                    margin-top: 20px;
+                }
+                    .content-info .row-info span {
+                        display: inline-block;
+                        width: auto;
+                        float: left;
+                        margin-right: 10px;
+                        font-size: 15px;
+                        line-height: 25px;
+                        font-weight: 600;
+                        color: var(--color-black2);
+                    }
+                    .content-info .row-info p {
+                        display: inline-block;
+                        width: auto;
+                        float: left;
+                        font-size: 15px;
+                        line-height: 25px;
+                    }
+                    .content-info p > a {
+                        color: var(--color-font-red1);
+                        text-decoration: none;
+                    }

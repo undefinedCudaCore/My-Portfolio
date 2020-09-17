@@ -1,9 +1,19 @@
 :root {
+    
     --color-font-white1: #ffffff9a;    
-    --color-font-white2: #ffffff;    
+    --color-font-white2: #ffffff; 
+
     --color-font-red1: #DC3545;
     --color-font-red2: #ff041d;
     --color-font-red3: #b6323f;
+
     --color-black1: #111111;
+    --color-black2: #333333;
+    --color-black-transparent1: rgba(0,0,0,.18);
+
     --color-grey1: #808080;
+    --color-grey2: #dee2e6;
+    --color-grey-transparent1:  rgba(0,0,0,.08);
+
+    --color-blue1: #eef5fc;
 }

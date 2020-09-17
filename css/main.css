@@ -1,5 +1,6 @@
 @import './reset.css';
 @import './layout.css';
+@import './style.css';
 @import './font-awesome.css';
 @import './font-awesome.min.css';
 @import './variables.css';
@@ -9,3 +10,4 @@
 @import './side-menu.css';
 @import './heading.css';
 @import './about-me.css';
+@import './button.css';

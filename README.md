@@ -1,7 +1,7 @@
 # My-Portfolio
 
 ![HitCount](http://hits.dwyl.com/teklithuania/My-Portfolio.svg)
-![HitCount](http://hits.dwyl.com/undefinedCudaCore/My-Portfolio.svg)
+![HitCount](http://hits.dwyl.io/undefinedCudaCore/My-Portfolio.svg)
 ![HitCount](http://hits.dwyl.com/teklithuania/My-Portfolio.svg)
 ![HitCount](http://hits.dwyl.com/undefinedcudacore/My-Portfolio.svg)
 

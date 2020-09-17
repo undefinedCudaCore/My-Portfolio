@@ -1,7 +1,7 @@
 # My-Portfolio
 
 ![HitCount](http://hits.dwyl.com/teklithuania/My-Portfolio.svg)
-[![HitCount](http://hits.dwyl.com/undefinedCudaCore/Portfolio.svg)](http://hits.dwyl.com/undefinedCudaCore/Portfolio)
+![HitCount](http://hits.dwyl.com/undefinedCudaCore/My-Portfolio.svg)
 
 Site published [Here](https://undefinedcudacore.github.io/My-Portfolio/index.html)
 

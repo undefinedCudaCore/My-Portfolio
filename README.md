@@ -4,9 +4,8 @@
 
 Site published [Here](https://undefinedcudacore.github.io/My-Portfolio/index.html)
 
-Design assets: [Karem](https://karmen-v2-html5-portfolio-template.netlify.app/karmen-html5-portfolio-theme/minified/index.html#)
-
-Start date: April 2020
+Design assets: [Exill](http://exill.dk/demo/codex/template/particles.html)
+Start date: September 2020
 
 ### Authors
 [Tadeuš Edmond Kuncevič](https://github.com/undefinedCudaCore) ->

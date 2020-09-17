@@ -3,7 +3,7 @@
 ![HitCount](http://hits.dwyl.io/teklithuania/My-Portfolio.svg)
 ![HitCount](http://hits.dwyl.io/undefinedCudaCore/My-Portfolio.svg)
 ![HitCount](http://hits.dwyl.io/teklithuania/My-Portfolio.svg)
-![HitCount](http://hits.dwyl.io/undefinedCudaCore/12-Kareem-ortfolio.svg)
+![HitCount](http://hits.dwyl.io/teklithuania/12-Kareem-ortfolio.svg)
 
 Site published [Here](https://undefinedcudacore.github.io/My-Portfolio/index.html)
 

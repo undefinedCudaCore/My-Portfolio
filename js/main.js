@@ -1,6 +1,7 @@
 "use strict";
 // imports
 import header from './data/headerData.js';
+import skillSectionIcons from './data/skillSvgIcons.js';
 import renderHeader from './layout/header.js';
 import scrollFun from './layout/scroll.js';
 import headerBackground from './layout/eListeners.js';

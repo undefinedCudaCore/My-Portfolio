@@ -22,7 +22,7 @@ const aboutMe = [
         paragraph: '<p>I am a freelancer based in the Vilnius, capital of Lithuania. I\'m starting my carieer like a web developer and I have been building noteworthy UX/UI designs and websites, which comply with the latest design trends. I help convert a vision and an idea into meaningful and useful products. Having a sharp eye for product evolution helps me prioritize tasks, iterate fast and deliver faster.</p>'
     },
     {
-        cv: '<a href="https://drive.google.com/file/d/1sTCqCO0AO8hobDZKoROzaQ4Ftd5IOMKQ/view?usp=sharing" class="myButton" target="_blank">Download CV</a>',
+        cv: '<a href="https://drive.google.com/file/d/1sTCqCO0AO8hobDZKoROzaQ4Ftd5IOMKQ/view?usp=sharing" class="myButton" target="_blank"><div class="download-icon-div">Download CV</div> <i class="fa fa-download" id="slide" aria-hidden="true"></i></a>',
         work: '<a href="#portfolio" class="myButton">My work</a>'
     },
     {

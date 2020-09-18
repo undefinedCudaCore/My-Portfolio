@@ -12,9 +12,9 @@ const header = [
         content: 'About'
     },
     {
-        link: '#services',
+        link: '#skills',
         class: '',
-        content: 'Services'
+        content: 'Skills'
     },
     {
         link: '#portfolio',

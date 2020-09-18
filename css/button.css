@@ -35,3 +35,45 @@
             border: none;
             padding: 11px 32px;
         }
+            .fa-download {
+                display: none;
+            }
+            .download-icon-div {
+                width: 114px;
+                text-align: center;
+            }
+            .download-icon-div:hover {
+                animation: slide 0.5s forwards;
+                text-align: left;
+            }
+            .download-icon-div:hover + .fa-download {
+                display: inline-block;
+                float: left;
+                margin: -17px 0 0 100px;
+            }
+            #slide {
+                position: absolute;
+                right: 48%;
+                -webkit-animation: slide 0.5s forwards;
+                animation: slide 0.5s forwards;
+            }
+            
+            @-webkit-keyframes slide {
+                95% {
+                    opacity: 0;
+                }
+                100% { 
+                    opacity: 1;
+                    right: 50%; 
+                }
+            }
+            
+            @keyframes slide {
+                95% {
+                    opacity: 0;
+                }
+                100% { 
+                    opacity: 1;
+                    right: 50%; 
+                }
+            }

@@ -1,0 +1,52 @@
+#skills {
+    background: var(--color-grey3);
+}
+#skills .col-4 {
+    display: inline-block;
+}
+#skills .flex-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  
+  #skills .single-chart {
+    width: 100%;
+    /* margin: 0 0 0 25%; */
+    justify-content: space-around ;
+  }
+  
+  #skills .circular-chart {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    max-height: 250px;
+  }
+  
+  #skills .circle-bg {
+    fill: none;
+    stroke: var(--color-grey1-d);
+    stroke-width: 3;
+  }
+  
+  #skills .circle {
+    fill: black;
+    stroke-width: 2;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+  }
+  
+  @keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+  }
+  
+    #skills .circular-chart.show-circle .circle {
+        stroke: var(--color-font-red1);
+    }
+    
+  #skills .percentage {
+    fill: var(--color-font-white2);
+    font-size: 0.5em;
+    text-anchor: middle;
+  }

@@ -3,7 +3,6 @@ function scrollFun() {
     // current scroll pozition
     const headerHeight = document.querySelector('#main_header').offsetHeight;
     const height = window.scrollY+headerHeight;
-    
     // make list of section
     let links = [];
     const DOMlinks = document.querySelectorAll('#main_header nav > a');

@@ -65,10 +65,8 @@ function headerBackground() {
         return;
             
         });
-    } else {
-        // bars.classList.remove("show-bars");
     }
-    return;
+
 };
-    window.addEventListener('scroll', headerBackground);
+window.addEventListener('scroll', headerBackground);
 export default headerBackground;

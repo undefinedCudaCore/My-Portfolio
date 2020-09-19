@@ -2,7 +2,7 @@
 
 const skillSectionIcons = [
     {
-        html: `<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        svg: `<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                         viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
                 <polygon style="fill:#FF5722;" points="32,0 72.8,460.8 256,512 439.136,460.832 480,0 "/>
                 <polygon style="fill:#FAFAFA;" points="391.52,150.688 256,150.688 176.8,150.688 181.92,208.576 256,208.576 386.4,208.576 
@@ -39,8 +39,9 @@ const skillSectionIcons = [
                 </g>
                 <g>
                 </g>
-                </svg>`,
-        css: `<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                </svg>`
+    },
+    {      svg: `<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                         viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
                 <polygon style="fill:#2196F3;" points="32,0 72.8,460.8 256,512 439.136,460.832 480,0 "/>
                 <polygon style="fill:#FAFAFA;" points="392.768,150.688 387.616,208.576 372.064,382.112 256,414.208 255.904,414.24 
@@ -77,7 +78,8 @@ const skillSectionIcons = [
                 <g>
                 </g>
                 </svg>`,
-        js: `<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    },
+    {    svg: `<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                         viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
                 <path style="fill:#E4BA42;" d="M512,256c0,33.353-6.374,65.212-17.983,94.438c-6.207,15.632-13.908,30.511-22.936,44.45
                     c-11.243,17.387-24.545,33.322-39.549,47.449c-8.788,8.286-18.15,15.945-28.035,22.925C361.806,494.707,310.93,512,256,512
@@ -128,7 +130,8 @@ const skillSectionIcons = [
                 <g>
                 </g>
                 </svg>`,
-        php: `<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    },
+    {    svg: `<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                         viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
                 <path style="fill:#8F9ED1;" d="M512,256c0,15.485-1.379,30.647-4.012,45.369C486.578,421.115,381.9,512,256,512
                     c-94.856,0-177.664-51.587-221.884-128.24c-10.794-18.693-19.278-38.87-25.088-60.155C3.135,302.07,0,279.395,0,256
@@ -179,5 +182,4 @@ const skillSectionIcons = [
     }
 
 ];
-console.log(skillSectionIcons);
 export default skillSectionIcons;

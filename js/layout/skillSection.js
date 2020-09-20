@@ -32,31 +32,33 @@ function renderSkills(skillData, skillIcon) {
         const icons = skillIcon[i];
         HTML += `
                 <div class="col-3">
-                    <div class="flex-wrapper">
-                        <div class="single-chart">
-                            <svg viewBox="0 0 36 36" class="circular-chart show-circle">
-                                <path class="circle-bg"
-                                d="M18 2.0845
-                                    a 15.9155 15.9155 0 0 1 0 31.831
-                                    a 15.9155 15.9155 0 0 1 0 -31.831"
-                                />
-                                <path class="circle"
-                                stroke-dasharray="${skill.percent}, 100"
-                                d="M18 2.0845
-                                    a 15.9155 15.9155 0 0 1 0 31.831
-                                    a 15.9155 15.9155 0 0 1 0 -31.831"
-                                />
-                                <text x="18" y="20.35" class="percentage">${skill.percent}%</text>
-                            </svg>
+                    <div class="skill-container">
+                        <div class="flex-wrapper">
+                            <div class="single-chart">
+                                <svg viewBox="0 0 36 36" class="circular-chart show-circle">
+                                    <path class="circle-bg"
+                                    d="M18 2.0845
+                                        a 15.9155 15.9155 0 0 1 0 31.831
+                                        a 15.9155 15.9155 0 0 1 0 -31.831"
+                                    />
+                                    <path class="circle"
+                                    stroke-dasharray="${skill.percent}, 100"
+                                    d="M18 2.0845
+                                        a 15.9155 15.9155 0 0 1 0 31.831
+                                        a 15.9155 15.9155 0 0 1 0 -31.831"
+                                    />
+                                    <text x="18" y="20.35" class="percentage">${skill.percent}%</text>
+                                </svg>
+                            </div>
                         </div>
-                    </div>
-                    <div class="skill-html">
-                        <div class="html-svg">
-                            ${icons.svg}
+                        <div class="skill-html">
+                            <div class="html-svg">
+                                ${icons.svg}
+                            </div>
+                            <span class="html-span">
+                                ${skill.type}
+                            </span>
                         </div>
-                        <span class="html-span">
-                            ${skill.type}
-                        </span>
                     </div>
                 </div>`;
     }

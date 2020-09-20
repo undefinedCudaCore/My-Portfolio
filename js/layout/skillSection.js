@@ -41,7 +41,7 @@ function renderSkills(skillData, skillIcon) {
                                         a 15.9155 15.9155 0 0 1 0 31.831
                                         a 15.9155 15.9155 0 0 1 0 -31.831"
                                     />
-                                    <path class="circle"
+                                    <path class="active-circle"
                                     stroke-dasharray="${skill.percent}, 100"
                                     d="M18 2.0845
                                         a 15.9155 15.9155 0 0 1 0 31.831
@@ -63,5 +63,18 @@ function renderSkills(skillData, skillIcon) {
                 </div>`;
     }
     document.querySelector('#skill-data').innerHTML = HTML;
+    
 }
+function scrollCircle() {    
+    if(window.scrollY > 1200) {
+        let list, i;
+        
+        list = document.getElementsByClassName("active-circle");
+        for (i = 0; i < list.length; ++i) {
+            list[i].setAttribute('class', 'circle');
+        }
+    }
+    
+}
+window.addEventListener('scroll', scrollCircle);
 export default {renderSkillHeading, renderSkills};

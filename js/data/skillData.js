@@ -11,7 +11,7 @@ const skillData = [
     },
     {
         percent: '60',
-        type: 'javascript'
+        type: 'js'
     },
     {
         percent: '70',

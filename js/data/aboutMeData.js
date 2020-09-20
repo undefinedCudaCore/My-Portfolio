@@ -23,7 +23,7 @@ const aboutMe = [
     },
     {
         cv: '<a href="https://drive.google.com/file/d/1sTCqCO0AO8hobDZKoROzaQ4Ftd5IOMKQ/view?usp=sharing" class="myButton" target="_blank"><div class="download-icon-div">Download CV</div> <i class="fa fa-download" id="slide" aria-hidden="true"></i></a>',
-        work: '<a href="#portfolio" class="myButton">My work</a>'
+        work: '<a href="#portfolio" class="myButton work-button">My work</a>'
     },
     {
         heading: '<h2 class="section-title">About me</h2>',

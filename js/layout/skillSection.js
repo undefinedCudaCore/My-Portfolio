@@ -12,8 +12,8 @@ function renderSkillHeading() {
                             </div>
                         </div>
                     </div>
-                    <div class="row" id="skill-data"></div>
-                    <div class="row" id="skill-icons"></div>`;
+                    <div class="row" id="skill_data"></div>
+                    <div class="row" id="skill_icons"></div>`;
     document.querySelector('#skills').innerHTML = skillsHTML;
 }
 
@@ -63,7 +63,7 @@ function renderSkills(skillData, skillIcon) {
                     </div>
                 </div>`;
     }
-    document.querySelector('#skill-data').innerHTML = HTML;
+    document.querySelector('#skill_data').innerHTML = HTML;
     
 }
 function scrollCircle() {    

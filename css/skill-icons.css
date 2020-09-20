@@ -1,11 +1,11 @@
-#skill-icons {
+#skill_icons {
     display: inline-block;
     float: right;
     margin-top: 30px;
     /* width: 100%; */
     text-align: center;
 }   
-    #skill-icons .skill-svg-icons {
+    #skill_icons .skill-svg-icons {
         display: inline-block;
         /* width: 50px; */
         margin-top: 30px;
@@ -14,13 +14,13 @@
         line-height: 14px;
         text-align: center;
     }
-        #skill-icons .skill-svg-icons:nth-child(1),
-        #skill-icons .skill-svg-icons:nth-child(2),
-        #skill-icons .skill-svg-icons:nth-child(3),
-        #skill-icons .skill-svg-icons:nth-child(4) {
+        #skill_icons .skill-svg-icons:nth-child(1),
+        #skill_icons .skill-svg-icons:nth-child(2),
+        #skill_icons .skill-svg-icons:nth-child(3),
+        #skill_icons .skill-svg-icons:nth-child(4) {
             display: none;
         }
-            #skill-icons .skill-svg-icons p {
+            #skill_icons .skill-svg-icons p {
             margin-top: 10px;
             word-break: keep-all;
         }

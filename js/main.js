@@ -11,6 +11,7 @@ import heroRender from './layout/hero.js';
 import renderAboutMeSection from './layout/aboutSection.js';
 import skillSection from './layout/skillSection.js';
 import svgIcons from './layout/icons.js';
+import renderHireMeSection from './layout/hireMe.js';
 
 // create
 // new callScrollFun('#main_header');
@@ -25,3 +26,4 @@ renderAboutMeSection();
 skillSection.renderSkillHeading();
 skillSection.renderSkills(skillData, skillSectionIcons);
 svgIcons(skillSectionIcons);
+renderHireMeSection();

@@ -19,7 +19,7 @@ function svgIcons(icons) {
                     <p class="icon-name">${icon.name}</p>
                 </div>`;
     }
-    document.querySelector('#skill-icons').innerHTML = HTML;
+    document.querySelector('#skill_icons').innerHTML = HTML;
     // console.log(document.querySelectorAll('.skill-svg-icons'));
 }
 export default svgIcons;

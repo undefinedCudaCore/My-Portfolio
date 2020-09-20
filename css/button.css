@@ -3,7 +3,7 @@
     width: 100%;
     height: auto;
 }
-     .about-btns .myButton {
+     .myButton {
         display:inline-block;
         float: left;
         margin: 0 0 0 25px;
@@ -16,7 +16,7 @@
         font-size:15px;
         text-decoration:none;
     }
-    .about-btns .myButton:hover {
+    .myButton:hover {
         background-color: var(--color-font-red2);
         border: none;
         padding: 11px 32px;
@@ -25,16 +25,22 @@
         position:relative;
         top:1px;
     }
-        .about-btns .myButton:last-child {
-            background: var(--color-font-white2);
-            color: var(--color-black1);
-            border:1px solid var(--color-black-transparent1);
-        }
         .about-btns .myButton:last-child:hover {
             background-color: var(--color-blue1);
             border: none;
             padding: 11px 32px;
         }
+            .about-btns .myButton.work-button {
+                border-color: #3498db;
+                color: var( --color-font-white2);
+                box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+                -webkit-transition: all 150ms ease-in-out;
+                transition: all 150ms ease-in-out;
+            }
+            .about-btns .myButton.work-button:hover {
+                color: var(--color-black1);
+                box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+            }
             .fa-download {
                 display: none;
             }

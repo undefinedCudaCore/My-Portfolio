@@ -1,0 +1,110 @@
+#hire_me {
+    background: url(../img/hire.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--color-font-white2);
+    
+    position: relative;
+    z-index: 0;
+}
+#hire_me::after {
+    content: "";
+    background-color: black;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    opacity: 0.9;
+    top: 0;
+    left: 0;    
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;  
+}
+    #hire_me h2{
+        z-index: 2; 
+        color: var(--color-font-white2);
+    }
+    #hire_me a {
+        float: right;
+        text-decoration: none;
+        text-align: center;
+        margin-top: -90px;
+        z-index: 2;
+    }
+        .hire-me {
+            min-width: 200px;
+            min-height: 60px;
+            font-size: 22px;
+            letter-spacing: 1.3px;
+            font-weight: 700;
+            color: var(--color-black1);
+            background:var(--color-font-white2);
+            background: linear-gradient(90deg,var(--color-font-white2) 0%, var(--color-font-white2) 100%);
+            border: none;
+            border-radius: 1000px;
+            box-shadow: 2px 2px 24px var(--color-font-white2);
+            transition: all 0.3s ease-in-out 0s;
+            cursor: pointer;
+            outline: none;
+            position: relative;
+            padding: 15px;
+            }
+        
+        .hire-me::before {
+        content: '';
+            border-radius: 1000px;
+            min-width: calc(200px + 12px);
+            min-height: calc(60px + 12px);
+            border: 6px solid var(--color-font-white2);
+            box-shadow: 0 0 20px var(--color-font-white2);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            transition: all .3s ease-in-out 0s;
+        }
+        
+        .hire-me:hover, .hire-me:focus {
+            color:var(--color-black1);
+            transform: translateY(-6px);
+        }
+        
+        .hire-me:hover::before, .hire-me:focus::before {
+            opacity: 1;
+        }
+        
+        .hire-me::after {
+            content: '';
+            width: 30px; 
+            height: 30px;
+            border-radius: 100%;
+            border: 6px solid var(--color-font-red1);
+            position: absolute;
+            z-index: -1;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: ring 2.5s infinite;
+        }
+        
+        .hire-me:hover::after, .hire-me:focus::after {
+            animation: none;
+            display: none;
+        }
+        
+        @keyframes ring {
+            0% {
+            width: 30px;
+            height: 30px;
+            opacity: 1;
+            }
+            100% {
+            width: 300px;
+            height: 300px;
+            opacity: 0;
+            }
+        }

@@ -12,7 +12,8 @@ function renderSkillHeading() {
                             </div>
                         </div>
                     </div>
-                    <div class="row" id="skill-data"></div>`;
+                    <div class="row" id="skill-data"></div>
+                    <div class="row" id="skill-icons"></div>`;
     document.querySelector('#skills').innerHTML = skillsHTML;
 }
 
@@ -66,7 +67,7 @@ function renderSkills(skillData, skillIcon) {
     
 }
 function scrollCircle() {    
-    if(window.scrollY > 1200) {
+    if(window.scrollY > 1100) {
         let list, i;
         
         list = document.getElementsByClassName("active-circle");

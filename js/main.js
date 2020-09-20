@@ -10,6 +10,7 @@ import wordSlider from './layout/wordSlider.js';
 import heroRender from './layout/hero.js';
 import renderAboutMeSection from './layout/aboutSection.js';
 import skillSection from './layout/skillSection.js';
+import svgIcons from './layout/icons.js';
 
 // create
 // new callScrollFun('#main_header');
@@ -23,3 +24,4 @@ wordSlider();
 renderAboutMeSection();
 skillSection.renderSkillHeading();
 skillSection.renderSkills(skillData, skillSectionIcons);
+svgIcons(skillSectionIcons);

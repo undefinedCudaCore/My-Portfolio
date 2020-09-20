@@ -8,7 +8,7 @@ function renderHireMeSection() {
                     <div class="col-12">
                         <div class="heading">
                             <h2 class="section-title">Let's work together!</h2>
-                            <p class="section-description">I am available for different projects and jobs. Hire me and get work done.</p>
+                            <p class="section-description">I am available for different type projects and jobs. Hire me and get work done.</p>
                             <div class="wrap"></div>
                                 <a href="#contacts" class="hire-me">Hire me</a>
                             </div>

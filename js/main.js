@@ -12,6 +12,8 @@ import renderAboutMeSection from './layout/aboutSection.js';
 import skillSection from './layout/skillSection.js';
 import svgIcons from './layout/icons.js';
 import renderHireMeSection from './layout/hireMe.js';
+import portfolio from './data/portfolioData.js';
+import renderPortfolio from './layout/portfolioSection.js';
 
 // create
 // new callScrollFun('#main_header');
@@ -27,3 +29,4 @@ skillSection.renderSkillHeading();
 skillSection.renderSkills(skillData, skillSectionIcons);
 svgIcons(skillSectionIcons);
 renderHireMeSection();
+renderPortfolio(portfolio);

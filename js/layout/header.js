@@ -53,8 +53,8 @@ function renderHeader(headerList) {
                 <i class="fa fa-bars" aria-hidden="true"></i>
                 <div class="row">
                         ${profileHTML}
-                        <div class="col-8">
-                            <nav class="navigation">
+                        <div class="col-8 row">
+                            <nav class="navigation m-l-4">
                                 ${navigationHTML}
                             </nav>
                         </div>

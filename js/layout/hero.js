@@ -21,9 +21,9 @@ function heroRender() {
                     </h3>
                     <!-- Headline end -->
                 </div>
-                <div class="icon-mouse">
-                    <a class="wheel" href="#about_me"></a>
-                </div>
+                <a class="icon-mouse" href="#about_me">
+                    <div class="wheel"></div>
+                </a>
             </div>`;
     document.querySelector('#hero_row').innerHTML = HTML;
 }

@@ -27,11 +27,6 @@ const header = [
         content: 'Clients'
     },
     {
-        link: '#blog',
-        class: '',
-        content: 'Blog'
-    },
-    {
         link: '#contacts',
         class: '',
         content: 'Contact'

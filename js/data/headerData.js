@@ -21,11 +21,11 @@ const header = [
         class: '',
         content: 'Portfolio'
     },
-    {
-        link: '#testimonials',
-        class: '',
-        content: 'Clients'
-    },
+    // {
+    //     link: '#testimonials',
+    //     class: '',
+    //     content: 'Clients'
+    // },
     {
         link: '#contacts',
         class: '',

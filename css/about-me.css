@@ -1,6 +1,7 @@
 #about_me {
     display: inline-block;
     width: 100%;
+    background-color: var(--color-font-white2);
 }
         #about_me .row img {
             background-color: transparent;

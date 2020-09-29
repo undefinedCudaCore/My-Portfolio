@@ -48,11 +48,11 @@
                 width: 114px;
                 text-align: center;
             }
-            .download-icon-div:hover {
+            .myButton:hover .download-icon-div {
                 animation: slide 0.5s forwards;
                 text-align: left;
             }
-            .download-icon-div:hover + .fa-download {
+            .myButton:hover .download-icon-div + .fa-download {
                 display: inline-block;
                 float: left;
                 margin: -17px 0 0 100px;

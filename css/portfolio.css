@@ -1,1 +1,147 @@
-
+#portfolio {
+    background-color: var(--color-grey3);
+    z-index: -1;
+}
+    .row .portfolio-item {
+        display: inline-block;
+        height: 333.33%;
+        float: left;
+        margin: 20px 0 20px 0;
+        border: 1px solid var(--color-class-transparent-grey-3);
+        box-shadow: 1px 1px 10px 1px var(--color-class-grey-5);
+        position: relative;
+        }
+    .row .portfolio-item :hover {
+        box-shadow: 1px 1px 20px 1px var(--color-class-grey-11);
+        transition: all .5s ease 0s;
+    }
+        .row .portfolio-item img{
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            float: left;
+            z-index: 0;
+        }
+            .portfolio-item .portfolio-curtain {
+                display: inline-block;
+                width: 350px;
+                height: 350px;
+                left: 0;
+                z-index: 1;
+                position: absolute;
+                transition: all .5s ease 0s;
+            }
+            .portfolio-item .portfolio-curtain:hover {
+                background-color: rgba(0, 0, 0, 0.904);
+            }
+                /* .portfolio-item .portfolio-curtain .fa-play-circle{
+                    display: none;
+                    float: left;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    position: absolute;
+                    font-size: 60px;
+                    line-height: 60px;
+                    text-decoration: none;
+                    color: var(--color-font-white2);
+                } */
+                /* .portfolio-item .portfolio-curtain .fa-play-circle:hover {
+                    box-shadow: none;
+                    transition: all .5s ease 0s;
+                } */
+                .portfolio-item .portfolio-curtain:hover .play-btn {
+                    display: inline-block;
+                }
+                .portfolio-item .portfolio-curtain p{
+                    display: inline-block;
+                    opacity: 0;
+                    margin: 400px 0 0 30px;
+                    float: left;
+                    font-size: 60px;
+                    line-height: 60px;
+                    text-decoration: none;
+                    color: var(--color-font-white2);
+                }
+                .portfolio-item .portfolio-curtain p:hover {
+                    display: inline-block;
+                    box-shadow: none;
+                }
+                .portfolio-item .portfolio-curtain:hover p {
+                    display: inline-block;
+                    opacity: 1;
+                    margin: 30px 0 0 30px;
+                    box-shadow: none;
+                    transition: all .5s ease 0s;
+                }
+                    .play-btn {
+                        display: none;
+                        width: 200px;
+                        height: 200px;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        border-radius: 50%;
+                        cursor: pointer;    
+                    }
+                        .portfolio-item .portfolio-curtain .play-btn:hover {
+                            box-shadow: none;
+                            transition: all .5s ease 0s;
+                        }
+                        .play-btn > .radius {
+                            display: inline-block;
+                            width: 100%;
+                            height: 100%;
+                            opacity: 0;
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            border: 1px solid var(--color-font-red1);
+                            border-radius: 50%;
+                            animation: wave 2s linear infinite;
+                        }
+                        .play-btn > .radius.r-2 {
+                            animation-delay: 0.5s;
+                        }
+                        .play-btn > .radius.r-3 {
+                            animation-delay: 1s;
+                        }
+                        .play-btn > .radius.r-4 {
+                            animation-delay: 1.5s;
+                        }
+                        .play-btn > .circle {
+                            display: inline-block;
+                            width: 50px;
+                            height: 50px;
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            background-color: var(--color-font-white2);
+                            border-radius: 50%;
+                        }
+                        .play-btn > .circle > .triangle {
+                                width: 0; 
+                                height: 0;
+                                position: absolute;
+                                top: 50%;
+                                left: 52%;
+                                transform: translate(-50%, -52%);    
+                                border-top: 8px solid transparent;
+                                border-bottom: 8px solid transparent;
+                                border-left: 10px solid var(--color-black1);
+                        }
+                    @keyframes wave{
+                        0% {
+                            width: 0; 
+                            height: 0;
+                            opacity: 1;
+                        }
+                        100% {
+                            width: 100%; 
+                            height: 100%;
+                            opacity: 0;
+                        }
+                    }

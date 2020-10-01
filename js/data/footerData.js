@@ -7,12 +7,12 @@ const footerTop = [
         topInfo: 'Vilnius, Lithuania'
     },
     {
-        topHref: '+37068777835',
+        topHref: 'tel:+37068777835',
         topIcon: 'fa-mobile',
         topInfo: '+37068777835'
     },
     {
-        topHref: 'teklithuania@gmail.com',
+        topHref: 'mailto:teklithuania@gmail.com',
         topIcon: 'fa-paper-plane-o',
         topInfo: 'teklithuania@gmail.com'
     }

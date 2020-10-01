@@ -67,7 +67,7 @@
                 }
             #main_header .navigation{
                 display: inline-block;
-                width: 100%;
+                /* width: 100%; */
                 /* margin: calc((100% - 22px) / 2); */
                 text-align: center;
             }

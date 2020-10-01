@@ -1,0 +1,29 @@
+#back-to-top-btn {
+    display: none;
+    position: fixed;
+    z-index: 4;
+    bottom: 60px;
+    right: 20px;
+    font-size: 26px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--color-black1);
+    color: var(--color-font-red1);
+    cursor: pointer;
+    outline: none;
+    font-size: 22px;
+    line-height: 22px;
+    border: 1px solid var(--color-font-white2);
+    text-align: center;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+  }
+    #back-to-top-btn:hover {
+        background-color: var(--color-font-white2);
+        color: var(--color-black1);
+        border: 1px solid var(--color-class-grey-2);
+    }
+    .fa.fa-angle-up {
+        margin-top: calc(50% - 14px);
+    }

@@ -7,6 +7,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script> -->
 </head>
 <body>
     <!-- HEADER start -->
@@ -63,17 +67,22 @@
         </div>
         <div class="row">
             <div class="col-12" style="text-align: center;">
-                <form action="mailto:someone@example.com?subject=subject" method="post" enctype="text/plain">
-                    Name:<br>
-                        <input type="text" name="name"><br>
-                    E-mail:<br>
-                        <input type="text" name="mail"><br>
-                    Subject:<br>
-                        <input type="text" name="subject"><br>
-                    Comment:<br>
-                        <input type="text" name="comment" size="50"><br><br>
-                        <input type="submit" value="Send">
-                        <input type="reset" value="Reset">
+                <form action="mailto:teklithuania@gmail.com?subject=Due to job offer." method="post" enctype="text/plain">
+                    <div class="row">
+                        <div class="col-6">
+                            <input type="text" name="name" placeholder="Name">
+                        </div>
+                        <div class="col-6">
+                            <input type="text" name="mail" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <textarea id="summernote" name="comment" placeholder="Type your message here."></textarea>
+                        </div>
+                    </div>
+                        <input class="myButton" type="submit" value="Send">
+                        <input class="myButton" type="reset" value="Reset">
                 </form>
             </div>
         </div>
@@ -84,7 +93,19 @@
     <!-- Footer start -->
     <div class="container" id="footer"></div>
     <!-- Footer end -->
-
+    <!-- <div id="summernote"></div> -->
+    <!-- <script>
+        $('#summernote').summernote({
+          placeholder: 'Type your message here.',
+          tabsize: 2,
+          height: 100,
+          toolbar: [
+            ['style', ['style']],
+            ['font', ['bold', 'underline', 'clear']],
+            ['color', ['color']]
+          ]
+        });
+      </script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="./js/main.js" type="module"></script>
     <script src="./js/particles/particles.js"></script>

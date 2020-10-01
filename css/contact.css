@@ -1,0 +1,28 @@
+#contacts {
+    background-color: var(--color-grey3);
+}
+        #contacts .col-6 input,
+        #contacts .col-12 textarea  {
+            font-family: inherit;
+            margin: 0 0 35px 0;
+            overflow: visible;
+            background-clip: padding-box;
+            display: inline-block;
+            float: left;
+            font-weight: 400;
+            line-height: 1.5;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+            width: 100%;
+            background-color: var(--color-font-white2);
+            border: none;
+            border-bottom: 1px solid var(--color-class-grey-2);
+            border-radius: 0;
+            font-size: 14px;
+            height: 41px;
+            padding: 9px 14px;
+            color: var(--color-class-grey-12);
+        }
+        #contacts .col-12 textarea {
+            border-bottom: 1px solid var(--color-font-red1);
+            height: 180px;
+        }

@@ -15,6 +15,9 @@ import svgIcons from './layout/icons.js';
 import renderHireMeSection from './layout/hireMe.js';
 import portfolio from './data/portfolioData.js';
 import renderPortfolio from './layout/portfolioSection.js';
+import { footerMiddle } from './data/footerData.js';
+import { footerTop } from './data/footerData.js';
+import renderFooter from './layout/footerSection.js';
 
 // create
 
@@ -31,3 +34,4 @@ skillSection.renderSkills(skillData, skillSectionIcons);
 svgIcons(skillSectionIcons);
 renderHireMeSection();
 renderPortfolio(portfolio);
+renderFooter(footerTop, footerMiddle);

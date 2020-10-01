@@ -61,8 +61,7 @@ function renderAboutMeSection(){
                         ${aboutMe[5].work}
                     </div>
                 </div>
-            </div>
-        `;
+            </div>`;
     document.querySelector('#about_me').innerHTML = HTML;
 }
     export default renderAboutMeSection;

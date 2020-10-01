@@ -17,7 +17,6 @@ import portfolio from './data/portfolioData.js';
 import renderPortfolio from './layout/portfolioSection.js';
 
 // create
-// new callScrollFun('#main_header');
 
 // call up function
 renderHeader(header);

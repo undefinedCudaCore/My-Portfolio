@@ -18,6 +18,9 @@ import renderPortfolio from './layout/portfolioSection.js';
 import { footerMiddle } from './data/footerData.js';
 import { footerTop } from './data/footerData.js';
 import renderFooter from './layout/footerSection.js';
+import { contactFormInfo } from './data/contanctData.js';
+import { contactInputInfo } from './data/contanctData.js';
+import renderContacts from './layout/contactSection.js';
 
 // create
 
@@ -35,3 +38,4 @@ svgIcons(skillSectionIcons);
 renderHireMeSection();
 renderPortfolio(portfolio);
 renderFooter(footerTop, footerMiddle);
+renderContacts(contactFormInfo, contactInputInfo);

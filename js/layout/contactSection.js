@@ -18,7 +18,7 @@ function renderContacts(form, input) {
             ${headingHTML}
             <div class="row">
                 <div class="col-12" style="text-align: center;">
-                    <form action="mailto:${form[0].mail}?subject=${form[0].subject}" method="${form[0].method}" enctype="text/plain">
+                    <form name="contactMe" onsubmit="return formValidator()" action="mailto:${form[0].mail}?subject=${form[0].subject}" method="${form[0].method}" enctype="text/plain">
                         <div class="row">
                             <div class="col-6">
                                 <input type="text" name="${input[0].name}" placeholder="${input[0].type}">

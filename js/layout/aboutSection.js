@@ -15,12 +15,12 @@ function renderAboutMeSection(){
                 </div>
             </div>
             <div class="row">
-                <div class="col-4">
+                <div class="col-4 col-md-12">
                     <div class="about-me" >
                         ${aboutMe[7].image}
                     </div>
                 </div>
-                <div class="col-8 content-column">
+                <div class="col-8 col-md-12 content-column">
                     <div class="content">
                         ${aboutMe[7].subtitle}
                         <h6 class="content-title">
@@ -31,7 +31,7 @@ function renderAboutMeSection(){
                         </div>
                         <div class="content-info">
                             <div class="row">
-                                <div class="col-6">
+                                <div class="col-6 col-xs-12">
                                     <div class="row-info">
                                         ${aboutMe[0].name}
                                         ${aboutMe[0].paragraph}
@@ -43,8 +43,8 @@ function renderAboutMeSection(){
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-6">
-                                    <div class="row-info">
+                                <div class="col-6 col-xs-12">
+                                    <div class="row-info email-row">
                                         ${aboutMe[2].name}
                                         ${aboutMe[2].paragraph}
                                     </div>

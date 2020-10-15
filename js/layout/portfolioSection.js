@@ -29,7 +29,7 @@ function renderPortfolio(portfolioData) {
         const portfolio = portfolioData[i];
         HTML += `
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-4 col-sm-6 col-xxs-12">
                         <div class="portfolio-item">
                             <a href="${portfolio.link}" target="_blank">
                                 <img src="${portfolio.src}" alt="${portfolio.alt}">

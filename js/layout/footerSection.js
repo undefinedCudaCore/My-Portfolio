@@ -27,7 +27,7 @@ function renderFooter(footerTop, footerMiddle) {
         const footerT = footerTop[i];
         
         top += `
-                <div class="col-4 footer-icons">
+                <div class="col-4 col-sm-6 col-xs-12 footer-icons">
                     <i class="fa ${footerT.topIcon}" aria-hidden="true"></i>
                     <a href="${footerT.topHref}" target="_blank">${footerT.topInfo}</a>
                 </div>`;

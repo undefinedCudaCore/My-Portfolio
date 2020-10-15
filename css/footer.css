@@ -38,9 +38,11 @@
     }
         #footer .footer-info span{
             color: var(--color-font-white2);
+            word-break: keep-all;
         }
         #footer .footer-info a,
         #footer .footer-links a{
             color: var(--color-font-red1);
             text-decoration: none;
+            word-break: keep-all;
         }

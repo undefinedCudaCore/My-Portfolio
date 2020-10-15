@@ -20,10 +20,10 @@ function renderContacts(form, input) {
                 <div class="col-12" style="text-align: center;">
                     <form name="contactMe" onsubmit="return formValidator()" action="mailto:${form[0].mail}?subject=${form[0].subject}" method="${form[0].method}" enctype="text/plain">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-6 col-xs-12">
                                 <input type="text" name="${input[0].name}" placeholder="${input[0].type}">
                             </div>
-                            <div class="col-6">
+                            <div class="col-6 col-xs-12">
                                 <input type="text" name="${input[1].name}" placeholder="${input[1].type}">
                             </div>
                         </div>

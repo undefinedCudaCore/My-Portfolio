@@ -14,7 +14,7 @@ function svgIcons(icons) {
     for (let i = 0; i < icons.length; i++) {
         const icon = icons[i];
         HTML += `
-                <div class="col-2 skill-svg-icons">
+                <div class="col-2 col-xs-4 skill-svg-icons">
                     ${icon.svg}
                     <p class="icon-name">${icon.name}</p>
                 </div>`;

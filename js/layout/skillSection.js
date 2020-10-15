@@ -32,7 +32,7 @@ function renderSkills(skillData, skillIcon) {
         const skill = skillData[i];
         const icons = skillIcon[i];
         HTML += `
-                <div class="col-3">
+                <div class="col-3 col-md-6 col-xs-12">
                     <div class="skill-container">
                         <div class="flex-wrapper">
                             <div class="single-chart">

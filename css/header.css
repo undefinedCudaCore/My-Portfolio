@@ -130,11 +130,6 @@
         margin: 10px 0 2px 10px;
     }
 }
-/* @media (max-width: 1000px) {
-    #main_header .container .profile {
-        margin-left: 10px;
-    }
-} */
 @media (max-width: 1000px) {
     #main_header .container .profile {
         width: var(--col-6);

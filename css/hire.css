@@ -78,7 +78,7 @@
         }
         
         .hire-me::after {
-            content: '';
+            /* content: '';
             width: 30px; 
             height: 30px;
             border-radius: 100%;
@@ -88,7 +88,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            animation: ring 2.5s infinite;
+            animation: ring 2.5s infinite; */
         }
         
         .hire-me:hover::after, .hire-me:focus::after {

@@ -159,3 +159,17 @@
                             opacity: 0;
                         }
                     }
+@media (max-width: 1100px){
+    #portfolio-content .portfolio-curtain p{
+        font-size: 40px;
+        line-height: 30px;
+    
+    }
+}
+@media (max-width: 300px){
+    #portfolio-content .portfolio-curtain p{
+        font-size: 20px;
+        line-height: 10px;
+    
+    }
+}

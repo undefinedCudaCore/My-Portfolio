@@ -14,8 +14,8 @@ function headerBackground() {
     const particles = document.querySelector("#particles-js");
      
     if (window.scrollY > 80 && sideMenu.classList.contains("cog")) {
-        sideMenu.classList.add("show-side-menu");
-        mainHeader.classList.add("position");
+        // sideMenu.classList.add("show-side-menu");
+        // mainHeader.classList.add("position");
         hero.classList.add("vh");
         heroShadow.classList.add("vh");
         headerCaption.classList.add("vh");

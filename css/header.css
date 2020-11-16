@@ -9,7 +9,7 @@
         position: unset;
     }
     #main_header .fa-bars {
-        display: none;
+        display: inline-block;
         position: absolute;
         top: 25%;
         margin-left: 20px;

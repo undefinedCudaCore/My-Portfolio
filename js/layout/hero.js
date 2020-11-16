@@ -3,7 +3,7 @@
 function heroRender() {
     let HTML = '';
 
-    HTML = `<div class="row" id="hero-row">
+    HTML = `<div class="row">
                 <div class="my-name">
                     <h1>
                         My name is Thad<span>deus</span>.

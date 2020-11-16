@@ -49,7 +49,7 @@ function renderHeader(headerList) {
     
     HTML = `
             ${sideMenuHTML}
-            <div class="container">
+            <div class="container" id="nav-container">
                 <i class="fa fa-bars" aria-hidden="true"></i>
                 <div class="row">
                         ${profileHTML}

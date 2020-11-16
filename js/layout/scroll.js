@@ -50,8 +50,8 @@ for (let i = 0; i < links.length; i++) {
         document.querySelector(`#main_header nav > a[href="${links[wantedSection]}"]`).classList.add('active');
         // pries tai buvusi nuoroda header > nav netanka active klases
         // naujoji nuoroda gauna active clase
-        document.querySelector(`#main_header .navigation > a.active`).classList.remove('active');
-        document.querySelector(`#main_header .navigation > a[href="${links[wantedSection]}"]`).classList.add('active');
+        document.querySelector(`#main_header .navigation > a.active`).classList.remove('active', 'auto-close');
+        document.querySelector(`#main_header .navigation > a[href="${links[wantedSection]}"]`).classList.add('active', 'auto-close');
 
             
     return;

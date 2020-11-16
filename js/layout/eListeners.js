@@ -13,6 +13,7 @@ function headerBackground() {
     const heroShadow = document.querySelector("#hero .hero-shadow");
     const headerCaption = document.querySelector("#hero .header-caption");
     const particles = document.querySelector("#particles-js");
+    const autoClose = document.querySelectorAll(".auto-close");
      
     if (window.scrollY > 80 && sideMenu.classList.contains("cog")) {
         // sideMenu.classList.add("show-side-menu");
@@ -35,6 +36,7 @@ function headerBackground() {
         // headerCaption.classList.remove("vh");
         particles.classList.remove("mar-top");
     }
+
 
     cog.addEventListener('click', function () {
         
@@ -65,6 +67,21 @@ function headerBackground() {
         return;
         
     });
+
+    for (let i = 0; i < autoClose.length; i++) {
+        autoClose[i].addEventListener("click", function() {
+        bars.classList.add("show-bars");
+        sideMenu.classList.remove("show-side-menu");
+        sideMenu.classList.remove("cog");
+        mainHeader.classList.remove("position");
+        tad.classList.remove("hide-profile");
+        available.classList.remove("hide-profile");
+        image.classList.remove("hide-profile");
+        // hero.style.height = "100vh";
+        headerContainer.style.display = "inline-block";
+        });
+    }
+
     if(window.scrollY > 80) {
         bars.classList.add("show-bars");
         bars.addEventListener('click', function () {

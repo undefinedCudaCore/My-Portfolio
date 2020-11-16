@@ -45,7 +45,7 @@ function headerBackground() {
         tad.classList.remove("hide-profile");
         available.classList.remove("hide-profile");
         image.classList.remove("hide-profile");
-        hero.style.height = "100vh";
+        // hero.style.height = "100vh";
         headerContainer.style.display = "inline-block";
         return;
         
@@ -61,7 +61,7 @@ function headerBackground() {
         available.classList.add("hide-profile");
         image.classList.add("hide-profile");
         cog.classList.add("fa-cog");
-        hero.style.height = "90vh";
+        // hero.style.height = "90vh";
         return;
         
     });
@@ -78,7 +78,7 @@ function headerBackground() {
     }
     if(window.scrollY < 80) {
         bars.classList.remove("show-bars");
-        hero.style.height = "100vh";
+        // hero.style.height = "100vh";
     }
 
 };

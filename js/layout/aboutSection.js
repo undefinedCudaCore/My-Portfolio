@@ -2,6 +2,17 @@
 
 import aboutMe from '../data/aboutMeData.js';
 
+let bDay;
+
+function calculateAge() {
+    let ageDate = new Date();
+    
+    bDay = Math.abs(ageDate.getUTCFullYear() - 1990);
+
+    return bDay;
+}
+calculateAge();
+
 function renderAboutMeSection(){
     let HTML = '';
 
@@ -38,7 +49,7 @@ function renderAboutMeSection(){
                                     </div>
                                     <div class="row-info">
                                         ${aboutMe[1].name}
-                                        ${aboutMe[1].paragraph}
+                                        ${bDay}
                                     </div>
                                 </div>
                             </div>

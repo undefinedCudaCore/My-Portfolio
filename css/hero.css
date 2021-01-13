@@ -92,6 +92,10 @@
     }
 }
 @media (max-width: 480px) {
+    .my-name > h1{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
     #hero-row > .my-name h1{
         font-size: 28px;
     }
@@ -111,6 +115,7 @@
     }
 }
 @media (max-width: 300px) {
+
     #page-top > h3 {
         word-break: keep-all;
     }

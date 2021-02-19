@@ -32,7 +32,7 @@ const portfolio = [
         paragraph: `Grill`
     },
     {
-        link: `https://front-end-by-rimantas.github.io/14-grupe-portfolio-mim/`,
+        link: `https://github.com/undefinedCudaCore/gradebook`,
         src: `./img/portfolio/gradebook.png`,
         alt: `Grade`,
         paragraph: `Grade`

@@ -5,9 +5,21 @@ import aboutMe from '../data/aboutMeData.js';
 let bDay;
 
 function calculateAge() {
-    let ageDate = new Date();
+    let date = new Date();
+
+    const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+    let monthNumber = date.getMonth();
+    let birthDateYear = 0;
+
+    let birthDateDay = date.getDate();
+
+    if(monthNumber === 11 && birthDateDay === 26){
+      birthDateYear = 1989;
+    } else {
+      birthDateYear = 1990;
+    }
     
-    bDay = Math.abs(ageDate.getUTCFullYear() - 1990);
+    bDay = Math.abs(date.getUTCFullYear() - birthDateYear);
 
     return bDay;
 }

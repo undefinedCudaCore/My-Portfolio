@@ -36,8 +36,8 @@ function renderHeader(headerList) {
                             </div>
                             <div class="side-menu-components">
                                 <div class="profile">
-                                    <a href="#"><img src="./img/profile-avatar.jpg" alt="Profile avatar"></a>
-                                    <span>Thaddeus Kuncevic</span>
+                                    <a href="#contacts"><img src="./img/profile-avatar.jpg" alt="Profile avatar"></a>
+                                    <span>Thadadeus Kuncevic</span>
                                     <p>Available for work</p>
                                 </div>
                                 <div class="navigation">
